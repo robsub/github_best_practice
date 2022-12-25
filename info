@@ -6,9 +6,11 @@ https://docs.github.com/en/get-started/importing-your-projects-to-github/importi
 Updating the repo with new stuff
 
 1) Make changes (like this change lol)
-2) git add . && git commit -m "NEW COMMIT NOTE HERE"
+2)  "NEW COMMIT NOTE HERE"
 3) git push
-Bingo! sweet. This syncs with an existing repo on github. 
+Bingo! sweet. This syncs with an existing repo on github.
+
+(commit and push to development and then pull request to main (see below)). 
 ---------------------------------------------------
 
 I am only using main branch. This is bad practice. Conform to https://www.datree.io/resources/github-best-practices:
