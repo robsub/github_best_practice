@@ -1,0 +1,16 @@
+---------------------------------------------------
+Adding a local repository to GitHub with GitHub CLI
+
+https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-with-github-cli
+---------------------------------------------------
+Updating the repo with new stuff
+
+1) Make changes (like this change lol)
+2) git add . && git commit -m "NEW COMMIT NOTE HERE"
+3) git push
+Bingo! sweet. This syncs with an existing repo on github. 
+---------------------------------------------------
+
+I am only using main branch. This is bad practice. Conform to https://www.datree.io/resources/github-best-practices:
+
+
