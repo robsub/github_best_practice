@@ -13,4 +13,31 @@ Bingo! sweet. This syncs with an existing repo on github.
 
 I am only using main branch. This is bad practice. Conform to https://www.datree.io/resources/github-best-practices:
 
-fd
+
+
+0 – Don’t git push straight to master
+
+Regardless if you use Gitflow or any other git branching model, it is always a good idea to turn on git branch protection to prevent direct commits and ensure your main branch code is deployable at all times. All commits should be pushed to master through pull requests.
+
+Protected branches
+You can protect important branches by setting branch protection rules, which define whether collaborators can delete or force push to the branch and set requirements for any pushes to the branch, such as passing status checks or a linear commit history. 
+- 
+Lets leave this alone for now. 
+
+Lts create a new branch 'development' under 'main'. I did this on github ui. 
+
+Switch to branch > make changes > push to development > pull request to master > check out github ui. 
+
+➜  github_best_practice git:(main) git checkout development
+error: pathspec 'development' did not match any file(s) known to git
+➜  github_best_practice git:(main) git pull
+From https://github.com/robsub/github_best_practice
+ * [new branch]      development -> origin/development
+Already up to date.
+➜  github_best_practice git:(main) git checkout development
+branch 'development' set up to track 'origin/development'.
+Switched to a new branch 'development'
+➜  github_best_practice git:(development)
+
+
+test change
